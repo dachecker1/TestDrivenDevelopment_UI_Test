@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showJoke(joke: Joke) {
+        binding.textJoke.text = joke.joke
     }
 
     private fun showError(error: String) {
